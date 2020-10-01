@@ -15,7 +15,6 @@ export const Container = styled.View<ContainerProps>`
   border-color: #f0f0f5;
   flex-direction: row;
   align-items: center;
-
   ${props =>
     props.isFocused &&
     css`
